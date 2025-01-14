@@ -6,7 +6,7 @@ tokenizers>=0.19.1
 bitsandbytes==0.43.3
 accelerate==0.33.0
 datasets==2.20.0
-deepspeed==0.14.4
+deepspeed==0.15.1
 pydantic==2.6.3
 addict
 fire
@@ -25,11 +25,11 @@ numpy>=1.24.4
 # qlora things
 evaluate==0.4.1
 scipy
-scikit-learn==1.4.2
+scikit-learn==1.5.0
 pynvml
 art
 fschat @ git+https://github.com/lm-sys/FastChat.git@27a05b04a35510afb1d767ae7e5990cbd278f8fe
-gradio==3.50.2
+gradio==5.11.0
 tensorboard
 python-dotenv==1.0.1
 autoawq>=0.2.5

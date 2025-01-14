@@ -86,7 +86,7 @@ setup(
             "fused-dense-lib  @ git+https://github.com/Dao-AILab/flash-attention@v2.6.2#subdirectory=csrc/fused_dense_lib",
         ],
         "deepspeed": [
-            "deepspeed==0.14.4",
+            "deepspeed==0.15.1",
             "deepspeed-kernels",
         ],
         "mamba-ssm": [
